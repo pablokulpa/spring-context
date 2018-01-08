@@ -1,11 +1,13 @@
 package com.codecool;
 
 import com.codecool.formatter.OutputFormatter;
+import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.util.List;
 
-public class SimpleCsvConverter {
+@Component
+public class  SimpleCsvConverter {
 
     private FileReader fileReader;
     private OutputFormatter outputFormatter;

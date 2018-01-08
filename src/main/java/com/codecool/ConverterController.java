@@ -1,7 +1,10 @@
 package com.codecool;
 
+import org.springframework.stereotype.Component;
+
 import java.io.File;
 
+@Component
 public class ConverterController {
 
     private SimpleCsvConverter simpleCsvConverter;
